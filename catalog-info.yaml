@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: hello-k8s
+  name: hello-kubernetes
   description: Tanzu Javascript Web App
   tags:
     - app-accelerator
@@ -10,7 +10,7 @@ metadata:
     - tanzu
     - nodejs
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-k8s'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-kubernetes'
 spec:
   type: service
   lifecycle: experimental
