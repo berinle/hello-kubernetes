@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-k8s
+  description: Tanzu Javascript Web App
+  tags:
+    - app-accelerator
+    - javascript
+    - web
+    - tanzu
+    - nodejs
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-k8s'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team

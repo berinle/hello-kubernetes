@@ -10,4 +10,4 @@ spec:
     git:
       ref:
         branch: tap-demo
-      url: https://github.com/jbergfeld/hello-kubernetes.git
+      url: https://github.com/berinle/hello-kubernetes.git
